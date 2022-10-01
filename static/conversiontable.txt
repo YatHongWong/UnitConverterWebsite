@@ -1,0 +1,14 @@
+cups,250,ml,L
+teaspoons,5,ml,L
+tablespoons,15,ml,L
+pints,568.26,ml,L
+gallons,4546,ml,L
+
+ounces,28.35,g,kg
+pounds,453.59,g,kg
+stones,6350,g,kg
+
+inches,25,mm,m
+feet,305,mm,m
+yards,914.4,mm,m
+
