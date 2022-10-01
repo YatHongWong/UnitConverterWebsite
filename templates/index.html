@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Unit Converter{% endblock %}
+{% block content%}
+    <div>
+        <h1>Unit converter</h1>
+        <form action="#" method="POST">
+            <label for="amount">Enter amount</label>
+            <input type="number" required name="tempamount" id="amount" step=".01" min="0" >
+            
+            <select name="units" id="units">
+                <option value="cups">cups</option>
+                <option value="teaspoons">teaspoons</option>
+                <option value="tablespoons">tablespoons</option>
+                <option value="pints">pints</option>
+                <option value="gallons">gallons</option>
+                <option value="ounces">ounces</option>
+                <option value="pounds">pounds</option>
+                <option value="stones">stones</option>
+                <option value="inches">inches</option>
+                <option value="feet">feet</option>
+                <option value="yards">yards</option>
+                <option value="fahrenheit">fahrenheit</option>
+                <option value="hkd">HKD</option>
+                <option value="usd">USD</option>
+                <option value="euros">euros</option>
+                <option value="yuan">yuan</option>
+
+            <input type="submit" value="convert!">
+        </form>
+    </div>
+    <div id="result">
+        <p>{{answer}}</p>
+        
+    </div>
+{% endblock %}
